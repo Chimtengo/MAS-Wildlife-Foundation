@@ -11,9 +11,9 @@ export const metadata = {
   keywords: 'wildlife conservation, Malawi, education, marine conservation, Lake Malawi, endangered species, conservation foundation, Jorge Promise Thawe, environmental protection',
   authors: [{ name: 'MAS Wildlife Conservation Foundation' }],
   icons: {
-    icon: '/logo.png',
-    shortcut: '/logo.png',
-    apple: '/logo.png',
+    icon: '/logo.PNG',
+    shortcut: '/logo.PNG',
+    apple: '/logo.PNG',
   },
   openGraph: {
     title: 'MAS Wildlife Conservation Foundation',
@@ -23,7 +23,7 @@ export const metadata = {
     siteName: 'MAS Wildlife Conservation Foundation',
     images: [
       {
-        url: '/logo.png',
+        url: '/logo.PNG',
         width: 1200,
         height: 630,
         alt: 'MAS Wildlife Conservation Foundation',
@@ -34,21 +34,23 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'MAS Wildlife Conservation Foundation',
     description: 'Conservation Through Education - Protecting Malawian wildlife and culture',
-    images: ['/logo.png'],
+    images: ['/logo.PNG'],
   },
   robots: {
     index: true,
     follow: true,
   },
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
   themeColor: '#059669',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
       <body className={inter.className}>
         <Navbar />
         <main className="min-h-screen">
