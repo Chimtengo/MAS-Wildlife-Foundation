@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Heart, Users, Leaf, Fish, BookOpen, Target, Award, ArrowRight } from 'lucide-react'
+import VisionImageSlider from '@/components/VisionImageSlider'
 
 export const metadata = {
   title: 'Home | MAS Wildlife Conservation Foundation',
@@ -129,7 +130,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="animate-scale-in" style={{animationDelay: '0.1s'}}>
-              <div className="text-5xl font-bold mb-2">2001</div>
+              <div className="text-5xl font-bold mb-2">2021</div>
               <p className="text-gray-200">Year Founded</p>
             </div>
             <div className="animate-scale-in" style={{animationDelay: '0.3s'}}>
@@ -159,16 +160,7 @@ export default function Home() {
               </Link>
             </div>
             
-            {/* Image Placeholder - Add your vision image here */}
-            <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl animate-slide-in-right">
-              <Image
-                src="/images/vision-image.jpg"
-                alt="Our Vision"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-            </div>
+            <VisionImageSlider />
           </div>
 
           {/* Values Cards */}

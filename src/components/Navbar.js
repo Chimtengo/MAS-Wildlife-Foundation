@@ -36,18 +36,18 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center space-x-3">
-            {/* Logo */}
-            <div className="relative w-12 h-12 flex-shrink-0">
+            <div className="relative w-14 h-14 flex-shrink-0">
               <Image
-                src="/logo.png"
+                src="/logo-transparent.png"
                 alt="MAS Wildlife Conservation Foundation Logo"
                 fill
                 className="object-contain"
+                sizes="56px"
+                quality={100}
                 priority
               />
             </div>
-            
-            {/* Text */}
+
             <div>
               <h1 className={`text-xl font-bold ${
                 scrolled || !isHomePage ? 'text-gray-900' : 'text-black'
@@ -61,7 +61,7 @@ export default function Navbar() {
               </p>
             </div>
           </Link>
-          
+
           <div className="hidden md:flex space-x-8">
             {navigation.map((item) => (
               <Link

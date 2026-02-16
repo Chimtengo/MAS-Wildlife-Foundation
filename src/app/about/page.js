@@ -72,7 +72,7 @@ export default function About() {
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-green-100 max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{animationDelay: '0.2s'}}>
-            A non-profit organization registered in the Republic of Malawi, educating young people and communities about the importance of wildlife and their relationship to the world we live in
+            A registered nonprofit organisation under Trustees' Incorporation Act of Malawi.
           </p>
           
           {/* Badge */}
@@ -185,7 +185,7 @@ export default function About() {
             <div className="relative h-[32rem] md:h-[38rem] rounded-2xl overflow-hidden shadow-2xl animate-slide-in-left">
               <Image
                 src="/images/founder-story.jpg"
-                alt="Our Story - Jorge Promise Thawe"
+                alt="Our Story - Gracian Tiuze Lungu"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -195,7 +195,7 @@ export default function About() {
             <div className="animate-slide-in-right">
               <div className="bg-gradient-to-br from-gray-50 to-green-50 p-8 rounded-2xl shadow-lg">
                 <p className="text-gray-700 leading-relaxed text-lg mb-4">
-                  MAS Wildlife Conservation Foundation was founded by <span className="font-bold text-green-600">Jorge Promise Thawe</span> in the year <span className="font-bold">2021</span> and officially registered in <span className="font-bold">2024</span>, driven by a shared passion for people, culture and wildlife conservation.
+                  MAS Wildlife Conservation Foundation was founded by <span className="font-bold text-green-600">Gracian Tiuze Lungu</span> in the year <span className="font-bold">2021</span> and officially registered in <span className="font-bold">2024</span>, driven by a shared passion for people, culture and wildlife conservation.
                 </p>
                 <p className="text-gray-700 leading-relaxed text-lg">
                   Our team comprises dedicated experts, researchers, and community leaders working together to protect the natural world.
