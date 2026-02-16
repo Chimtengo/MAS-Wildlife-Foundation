@@ -72,7 +72,7 @@ export default function Home() {
             </Link>
             <Link href="/about" className="px-8 py-4 bg-white bg-opacity-20 hover:bg-opacity-30 text-green-600 rounded-full font-semibold transition-all backdrop-blur-sm border border-white border-opacity-30">
               Learn More
-            </Link>
+            </Link> 
           </div>
         </div>
       </section>

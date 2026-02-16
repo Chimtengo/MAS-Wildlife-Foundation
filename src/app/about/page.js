@@ -195,7 +195,7 @@ export default function About() {
             <div className="animate-slide-in-right">
               <div className="bg-gradient-to-br from-gray-50 to-green-50 p-8 rounded-2xl shadow-lg">
                 <p className="text-gray-700 leading-relaxed text-lg mb-4">
-                  MAS Wildlife Conservation Foundation was founded by <span className="font-bold text-green-600">Jorge Promise Thawe</span> in the year <span className="font-bold">2001</span> and officially registered in <span className="font-bold">2024</span>, driven by a shared passion for people, culture and wildlife conservation.
+                  MAS Wildlife Conservation Foundation was founded by <span className="font-bold text-green-600">Jorge Promise Thawe</span> in the year <span className="font-bold">2021</span> and officially registered in <span className="font-bold">2024</span>, driven by a shared passion for people, culture and wildlife conservation.
                 </p>
                 <p className="text-gray-700 leading-relaxed text-lg">
                   Our team comprises dedicated experts, researchers, and community leaders working together to protect the natural world.
