@@ -82,7 +82,7 @@ export default function Projects() {
         
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/projects-hero.jpg"
+            src="/images/vision-image2.jpg"
             alt="Our Projects"
             fill
             className="object-cover opacity-25"
