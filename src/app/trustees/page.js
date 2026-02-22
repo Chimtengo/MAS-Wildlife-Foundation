@@ -34,7 +34,7 @@ export default function Trustees() {
       image: "/images/trustees/talandila-samson-kasapila.jpg"
     },
     {
-      name: "Greshan Tiuze Lungu",
+      name: "Gracian Tiuze Lungu",
       position: "Board Member",
       description: "Focused on marine conservation and Lake Malawi ecosystem protection.",
       image: "/images/trustees/greshan-tiuze-lungu.jpg"
