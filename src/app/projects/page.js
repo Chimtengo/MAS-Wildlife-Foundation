@@ -23,7 +23,7 @@ export default function Projects() {
       ],
       color: "from-green-500 to-emerald-600",
       bg: "from-green-50 to-emerald-50",
-      image: "/images/projects/education-outreach.jpg"
+      image: "/images/projects/education-outreach.jpeg"
     },
     {
       icon: <Leaf className="w-16 h-16" />,
@@ -39,7 +39,7 @@ export default function Projects() {
       ],
       color: "from-green-500 to-emerald-600",
       bg: "from-green-50 to-emerald-50",
-      image: "/images/projects/wildlife-conservation.jpg"
+      image: "/images/projects/wildlife-conservation.jpeg"
     },
     {
       icon: <Fish className="w-16 h-16" />,
@@ -55,7 +55,7 @@ export default function Projects() {
       ],
       color: "from-green-500 to-emerald-600",
       bg: "from-green-50 to-emerald-50",
-      image: "/images/projects/marine-conservation.jpg"
+      image: "/images/projects/marine-conservation.jpeg"
     },
     {
       icon: <Users className="w-16 h-16" />,
@@ -71,7 +71,7 @@ export default function Projects() {
       ],
       color: "from-green-500 to-emerald-600",
       bg: "from-green-50 to-emerald-50",
-      image: "/images/projects/culture-conservation.jpg"
+      image: "/images/projects/culture-conservation.jpeg"
     }
   ]
 

@@ -16,6 +16,10 @@ const IMAGES = [
     src: '/images/vision-image3.jpg',
     alt: 'Community Wildlife Education',
   },
+  {
+    src: '/images/vision-image4.jpg',
+    alt: 'Community Wildlife Education',
+  },
 ]
 
 export default function VisionImageSlider() {

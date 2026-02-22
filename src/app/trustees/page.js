@@ -60,7 +60,7 @@ export default function Trustees() {
         {/* Background Image - Optional */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/trustees-hero.jpg"
+            src="/images/trustees-hero.jpeg"
             alt="Board of Trustees"
             fill
             className="object-cover opacity-20"
