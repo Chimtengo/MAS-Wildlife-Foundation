@@ -44,7 +44,7 @@ export default function Home() {
         {/* Background Image - Replace with your hero image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero-background.jpg"
+            src="/images/vision-image.jpg"
             alt="Wildlife Conservation"
             fill
             className="object-cover"
@@ -212,7 +212,7 @@ export default function Home() {
         {/* CTA transparent overlay image (upload at /public/images/cta-overlay.png) */}
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="/images/cta-overlay.png"
+            src="/images/cta-overlay.jpg"
             alt="Join Our Mission"
             fill
             className="object-cover"

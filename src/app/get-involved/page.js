@@ -76,7 +76,7 @@ export default function GetInvolved() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/get-involved-hero.jpg"
+            src="/images/get-involved-hero.jpeg"
             alt="Get Involved"
             fill
             className="object-cover opacity-25"

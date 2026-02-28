@@ -39,7 +39,7 @@ export default function About() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/about-hero.jpg"
+            src="/images/vision-image3.jpg"
             alt="About MAS Wildlife"
             fill
             className="object-cover opacity-30"
@@ -162,7 +162,7 @@ export default function About() {
       <section className="py-20 text-white relative overflow-hidden bg-black">
         <div className="absolute inset-0">
           <Image
-            src="/images/focus-background.jpg"
+            src="/images/focus-background.jpeg"
             alt="Focus Areas"
             fill
             className="object-cover"
